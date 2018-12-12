@@ -27,7 +27,7 @@ public class FilteredDataEmitter extends DataEmitterBase implements DataEmitter,
     }
 
     @Override
-    public int getBytesRead() {
+    public long getBytesRead() {
         return totalRead;
     }
 
@@ -42,7 +42,7 @@ public class FilteredDataEmitter extends DataEmitterBase implements DataEmitter,
     }
 
     private DataTracker tracker;
-    private int totalRead;
+    private long totalRead;
     @Override
     public void onDataAvailable(DataEmitter emitter, ByteBufferList bb) {
         if (closed) {

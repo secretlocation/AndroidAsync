@@ -5,10 +5,10 @@ package com.koushikdutta.async;
  */
 public interface DataTrackingEmitter extends DataEmitter {
     public interface DataTracker {
-        void onData(int totalBytesRead);
+        void onData(long totalBytesRead);
     }
     void setDataTracker(DataTracker tracker);
     DataTracker getDataTracker();
-    int getBytesRead();
+    long getBytesRead();
     void setDataEmitter(DataEmitter emitter);
 }
