@@ -1,5 +1,10 @@
 # AndroidAsync
 
+### Vusr Notes
+  * Only pull request to [Vusr-AndroidAsync Repo](https://github.com/secretlocation/AndroidAsync) on `vusr/master` branch
+
+---
+
 AndroidAsync is a low level network protocol library. If you are looking for an easy to use, higher level, Android aware,
 http request library, check out [Ion](https://github.com/koush/ion) (it is built on top of AndroidAsync). The typical Android
 app developer would probably be more interested in Ion.

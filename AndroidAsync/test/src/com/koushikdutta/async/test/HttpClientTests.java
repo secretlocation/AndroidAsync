@@ -5,7 +5,6 @@ import android.test.AndroidTestCase;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.google.android.gms.security.ProviderInstaller;
 import com.koushikdutta.async.AsyncServer;
 import com.koushikdutta.async.AsyncServerSocket;
 import com.koushikdutta.async.ByteBufferList;
