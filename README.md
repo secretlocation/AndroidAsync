@@ -1,7 +1,7 @@
 # AndroidAsync
 
 ### Vusr Notes
-  * Only pull request to secretlocation/vusr-ion on vusr/master branch.
+  * Only pull request to [Vusr-AndroidAsync Repo](https://github.com/secretlocation/AndroidAsync) on `vusr/master` branch
 
 ---
 
